@@ -1,4 +1,4 @@
-## Structs
+## Structs (構造体)
 
 ```go
 package main
@@ -22,6 +22,34 @@ func main() {
 ```
 
 構造体とはフィールドの集まりのこと
+
+## 構造体の生成方法
+
+構造体を生成するには大きく分けて2つの方法があります。
+簡単な例として属性にXとYを持つ構造体を用意します。
+
+```go
+type Sample struct {
+    X, Y int
+}
+```
+
+### 1. new()を用いて生成する方法
+
+```go
+var s = new(Sample)
+fmt.Println(s) // -> &{0,0}
+```
+
+* 属性は型毎に決められているゼロ値(intの場合は0)に設定される。
+* 構造体のポインタ型が生成される
+
+### 2. {}を用いて初期化する方法
+
+```go
+var s = Sample{X: 1, Y: 2}
+fmt.Println(s) // -> {1,2}
+```
 
 ## Struct Fields
 
