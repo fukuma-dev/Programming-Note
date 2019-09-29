@@ -44,5 +44,21 @@ func main() {
 }
 ```
 
+### Result
+```
+counting
+done
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+```
+
 * deferへ渡した関数が複数ある場合，その呼び出しはスタック(stack)される。
 * 呼び出し元の関数がreturnするとき，deferへ渡した関数はLIFO(last-in-first-out) の順番で実行され流。
