@@ -59,7 +59,7 @@ import "fmt"
 
 type Vertex struct {
 	X int
-	Y inta
+	Y int
 }
 
 func main() {
