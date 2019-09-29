@@ -17,8 +17,6 @@ func main() {
 ```
 hello
 world
-
-Program exited.
 ```
 
 * deferは関数の実行を遅延させるステートメント
