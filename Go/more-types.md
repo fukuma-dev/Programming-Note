@@ -23,6 +23,8 @@ func main() {
 
 構造体とはフィールドの集まりのこと
 
+---
+
 ## 構造体の生成方法
 
 構造体を生成するには大きく分けて2つの方法がある。
@@ -51,6 +53,8 @@ var s = Sample{X: 1, Y: 2}
 fmt.Println(s) // -> {1,2}
 ```
 
+---
+
 ## Struct Fields
 
 ```go
@@ -77,6 +81,8 @@ func main() {
 ```
 
 structのフィールドは，ドット( . )を用いてアクセスする。
+
+---
 
 ## Pointers to structs
 
