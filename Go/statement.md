@@ -61,4 +61,4 @@ done
 ```
 
 * deferへ渡した関数が複数ある場合，その呼び出しはスタック(stack)される。
-* 呼び出し元の関数がreturnするとき，deferへ渡した関数はLIFO(last-in-first-out) の順番で実行され流。
+* 呼び出し元の関数がreturnするとき，deferへ渡した関数はLIFO(last-in-first-out) の順番で実行される。
